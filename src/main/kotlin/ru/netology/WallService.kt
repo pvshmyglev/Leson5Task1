@@ -6,7 +6,7 @@ object WallService {
 
     private var posts = emptyArray<Post>()
 
-    private var postId = 1
+    private var postId = 0
 
     fun newPost(text: String): Post {
 
