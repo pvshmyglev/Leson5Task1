@@ -1,5 +1,7 @@
 package ru.netology
 
+import java.time.LocalDateTime
+
 data class Post(
 val id: Int,
 val ownerId: Int,
